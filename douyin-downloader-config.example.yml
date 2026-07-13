@@ -1,0 +1,39 @@
+# Local downloader login template. Copy it to .deps/douyin-downloader/config.local.yml.
+# Keep the cookie fields private and never commit the copied file.
+
+link: []
+
+# These paths are correct after scripts/bootstrap.ps1 has created .deps/douyin-downloader.
+path: "../../input"
+mode: []
+
+number:
+  like: 20
+
+music: false
+cover: false
+avatar: false
+json: true
+folderstyle: false
+filename_template: "{id}"
+folder_template: "{id}"
+thread: 2
+retry_times: 3
+database: true
+database_path: "dy_downloader.db"
+processed_state_db: "../../output/processing_state.sqlite3"
+
+# The desktop app performs local faster-whisper transcription itself.
+transcript:
+  enabled: false
+
+browser_fallback:
+  enabled: true
+  headless: false
+
+cookies:
+  msToken: ""
+  ttwid: ""
+  odin_tt: ""
+  passport_csrf_token: ""
+  sid_guard: ""

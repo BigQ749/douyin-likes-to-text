@@ -1,0 +1,18 @@
+﻿# 抖音点赞视频：临时下载、本机转写、交给当前 Codex 对话总结、成功后清理视频
+# 视频、音频、Cookie 和账号信息只保留在本机；不会自动上传到任何 API。
+input_dir: "input"
+output_txt: "output/抖音点赞视频总结.txt"
+pending_txt: "output/待Codex总结.txt"
+state_db: "output/processing_state.sqlite3"
+model_dir: "models"
+
+transcription:
+  model: "small"       # 更省空间可用 base；更高准确率可用 medium
+  device: "cpu"        # 有 NVIDIA CUDA 时可改为 cuda
+  compute_type: "int8" # CPU 上兼顾速度、内存和准确率
+  language: "zh"
+
+processing:
+  delete_video_after_transcription: true
+  delete_metadata_after_transcription: true
+  max_videos: 0         # 0 = 处理输入目录中全部尚未转写的视频
