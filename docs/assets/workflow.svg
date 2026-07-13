@@ -1,0 +1,53 @@
+﻿<svg width="1280" height="430" viewBox="0 0 1280 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="line" x1="170" y1="0" x2="1110" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2C73E8"/><stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#17366B" flood-opacity="0.12"/></filter>
+  </defs>
+  <rect width="1280" height="430" rx="24" fill="#F5F8FE"/>
+  <g font-family="Microsoft YaHei UI, Microsoft YaHei, Segoe UI, Arial, sans-serif">
+    <text x="64" y="75" fill="#14213D" font-size="28" font-weight="800">一个清晰、可控的本机处理流程</text>
+    <text x="64" y="110" fill="#63718A" font-size="16">先看清单、再选择；视频不作为长期文件堆在电脑里。</text>
+    <path d="M214 221H1054" stroke="url(#line)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1045 212L1063 221L1045 230" stroke="#8B5CF6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g filter="url(#shadow)">
+      <rect x="72" y="151" width="245" height="198" rx="19" fill="white"/>
+      <circle cx="112" cy="191" r="20" fill="#E6F0FF"/>
+      <path d="M104 189C104 184.582 107.582 181 112 181C116.418 181 120 184.582 120 189C120 193.418 116.418 197 112 197C107.582 197 104 193.418 104 189Z" stroke="#286BE4" stroke-width="2.5"/>
+      <path d="M101 203C105 199 119 199 123 203" stroke="#286BE4" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="144" y="188" fill="#1C2B47" font-size="20" font-weight="800">1. 读取清单</text>
+      <text x="99" y="245" fill="#5E6B84" font-size="15">从“喜欢”或“收藏”读取</text>
+      <text x="99" y="270" fill="#5E6B84" font-size="15">标题、作者、简介和链接。</text>
+      <text x="99" y="316" fill="#286BE4" font-size="14" font-weight="700">此步骤不下载视频</text>
+
+      <rect x="373" y="151" width="245" height="198" rx="19" fill="white"/>
+      <circle cx="413" cy="191" r="20" fill="#E9F8F1"/>
+      <path d="M405 191L411 197L422 185" stroke="#1C9A5B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="403" y="181" width="20" height="20" rx="5" stroke="#1C9A5B" stroke-width="2.5"/>
+      <text x="445" y="188" fill="#1C2B47" font-size="20" font-weight="800">2. 自己勾选</text>
+      <text x="400" y="245" fill="#5E6B84" font-size="15">按标题、来源或关键词筛选，</text>
+      <text x="400" y="270" fill="#5E6B84" font-size="15">只把真正想看的内容加入队列。</text>
+      <text x="400" y="316" fill="#1C9A5B" font-size="14" font-weight="700">批量与单条都可处理</text>
+
+      <rect x="674" y="151" width="245" height="198" rx="19" fill="white"/>
+      <circle cx="714" cy="191" r="20" fill="#FFF3E2"/>
+      <path d="M705 200H723" stroke="#D88118" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M710 185V191M718 185V191M706 191H722V203H706V191Z" stroke="#D88118" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="746" y="188" fill="#1C2B47" font-size="20" font-weight="800">3. 临时转写</text>
+      <text x="701" y="245" fill="#5E6B84" font-size="15">所选视频临时下载到本机，</text>
+      <text x="701" y="270" fill="#5E6B84" font-size="15">用本地语音模型识别内容。</text>
+      <text x="701" y="316" fill="#D88118" font-size="14" font-weight="700">窗口显示处理进度</text>
+
+      <rect x="975" y="151" width="245" height="198" rx="19" fill="white"/>
+      <circle cx="1015" cy="191" r="20" fill="#F0ECFF"/>
+      <path d="M1007 181H1019L1024 186V202H1007V181Z" stroke="#7548D9" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M1019 181V187H1025M1011 192H1020M1011 197H1018" stroke="#7548D9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="1047" y="188" fill="#1C2B47" font-size="20" font-weight="800">4. 输出 TXT</text>
+      <text x="1002" y="245" fill="#5E6B84" font-size="15">成功后清理临时媒体，留下</text>
+      <text x="1002" y="270" fill="#5E6B84" font-size="15">标题、链接和转写文字。</text>
+      <text x="1002" y="316" fill="#7548D9" font-size="14" font-weight="700">可继续交给 Codex / ChatGPT</text>
+    </g>
+  </g>
+</svg>

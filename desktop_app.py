@@ -1,4 +1,4 @@
-"""Desktop picker for local, private Douyin video transcription.
+﻿"""Desktop picker for local, private Douyin video transcription.
 
 The app lists a user's liked videos or saved-collection videos first.  It only
 passes the rows chosen in the table to the existing local downloader and
@@ -47,6 +47,7 @@ RUNTIME_DIR = ROOT / "runtime"
 STATE_DB = OUTPUT_DIR / "processing_state.sqlite3"
 PENDING_TXT = OUTPUT_DIR / "待Codex总结.txt"
 LOCAL_CONFIG = ROOT / "config.yml"
+CONFIG_EXAMPLE = ROOT / "config.example.yml"
 SELECTION_FILE = RUNTIME_DIR / "selected_videos.json"
 DOWNLOAD_CONFIG = RUNTIME_DIR / "selected-download.yml"
 PROCESS_CONFIG = RUNTIME_DIR / "selected-process.yml"
@@ -503,11 +504,15 @@ def write_selection_files(choices: list[VideoChoice]) -> BatchJob:
     }
     DOWNLOAD_CONFIG.write_text(yaml.safe_dump(config, allow_unicode=True, sort_keys=False), encoding="utf-8")
 
-    # Resolve paths from the ordinary project configuration first, then store
+    # Resolve paths from the ordinary local configuration first, then store
     # absolute paths so the per-batch config can safely live under runtime/.
+    # A fresh clone has no private config.yml yet. The public example has the
+    # same safe defaults and lets the application create an isolated batch
+    # before the first login/setup has written the local config file.
     from process_likes import load_config
 
-    process_config, _ = load_config(LOCAL_CONFIG)
+    process_config_source = LOCAL_CONFIG if LOCAL_CONFIG.exists() else CONFIG_EXAMPLE
+    process_config, _ = load_config(process_config_source)
     process_config["input_dir"] = str(batch_input_dir.resolve())
     for key in ("output_txt", "pending_txt", "state_db", "model_dir"):
         process_config[key] = str(process_config[key])

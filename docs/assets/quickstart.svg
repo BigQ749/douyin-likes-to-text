@@ -1,0 +1,35 @@
+﻿<svg width="1280" height="410" viewBox="0 0 1280 410" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><filter id="s" x="-10%" y="-15%" width="120%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#213B6D" flood-opacity="0.1"/></filter></defs>
+  <rect width="1280" height="410" rx="24" fill="#F7F9FC"/>
+  <g font-family="Microsoft YaHei UI, Microsoft YaHei, Segoe UI, Arial, sans-serif">
+    <text x="64" y="69" fill="#172B4D" font-size="27" font-weight="800">从第一次启动到拿到文本：只需记住这 6 步</text>
+    <g filter="url(#s)">
+      <rect x="64" y="106" width="1152" height="230" rx="18" fill="white"/>
+      <path d="M194 201H1076" stroke="#E1E8F4" stroke-width="3" stroke-dasharray="6 10"/>
+      <g>
+        <circle cx="130" cy="201" r="34" fill="#E9F1FF"/><text x="118" y="209" fill="#286BE4" font-size="22" font-weight="800">1</text>
+        <text x="92" y="259" fill="#1D2D49" font-size="15" font-weight="800">完成一次初始化</text><text x="77" y="283" fill="#67758D" font-size="13">安装依赖与浏览器组件</text>
+      </g>
+      <g>
+        <circle cx="314" cy="201" r="34" fill="#E9F8F1"/><text x="302" y="209" fill="#1C9A5B" font-size="22" font-weight="800">2</text>
+        <text x="279" y="259" fill="#1D2D49" font-size="15" font-weight="800">双击启动器</text><text x="264" y="283" fill="#67758D" font-size="13">打开桌面应用窗口</text>
+      </g>
+      <g>
+        <circle cx="498" cy="201" r="34" fill="#FFF4E5"/><text x="486" y="209" fill="#D88118" font-size="22" font-weight="800">3</text>
+        <text x="465" y="259" fill="#1D2D49" font-size="15" font-weight="800">扫码登录</text><text x="443" y="283" fill="#67758D" font-size="13">登录失效时再重新登录</text>
+      </g>
+      <g>
+        <circle cx="682" cy="201" r="34" fill="#F1EDFF"/><text x="670" y="209" fill="#7548D9" font-size="22" font-weight="800">4</text>
+        <text x="641" y="259" fill="#1D2D49" font-size="15" font-weight="800">抓取视频清单</text><text x="628" y="283" fill="#67758D" font-size="13">喜欢、收藏或单条链接</text>
+      </g>
+      <g>
+        <circle cx="866" cy="201" r="34" fill="#E9F8F1"/><text x="854" y="209" fill="#1C9A5B" font-size="22" font-weight="800">5</text>
+        <text x="832" y="259" fill="#1D2D49" font-size="15" font-weight="800">勾选并转写</text><text x="808" y="283" fill="#67758D" font-size="13">查看窗口中的处理进度</text>
+      </g>
+      <g>
+        <circle cx="1050" cy="201" r="34" fill="#E9F1FF"/><text x="1038" y="209" fill="#286BE4" font-size="22" font-weight="800">6</text>
+        <text x="1010" y="259" fill="#1D2D49" font-size="15" font-weight="800">打开 TXT</text><text x="999" y="283" fill="#67758D" font-size="13">继续整理与总结内容</text>
+      </g>
+    </g>
+  </g>
+</svg>

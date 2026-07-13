@@ -1,0 +1,69 @@
+﻿<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="20" x2="1220" y2="510" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071B3A"/>
+      <stop offset="0.52" stop-color="#173E7A"/>
+      <stop offset="1" stop-color="#6B45E8"/>
+    </linearGradient>
+    <linearGradient id="card" x1="757" y1="116" x2="1130" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.07"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#021027" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="520" rx="28" fill="url(#bg)"/>
+  <circle cx="105" cy="56" r="210" fill="#30B9F5" fill-opacity="0.14"/>
+  <circle cx="1175" cy="468" r="250" fill="#B18CFF" fill-opacity="0.16"/>
+  <circle cx="598" cy="-21" r="118" fill="#FFFFFF" fill-opacity="0.07"/>
+  <path d="M48 401C180 350 230 457 370 399C492 348 515 238 661 266C798 292 827 387 962 336C1068 296 1110 323 1235 268" stroke="#FFFFFF" stroke-opacity="0.17" stroke-width="2"/>
+
+  <g font-family="Microsoft YaHei UI, Microsoft YaHei, Segoe UI, Arial, sans-serif">
+    <rect x="74" y="73" width="137" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.14" stroke="#FFFFFF" stroke-opacity="0.24"/>
+    <circle cx="95" cy="91" r="6" fill="#64E6A7"/>
+    <text x="110" y="97" fill="#E6F8EF" font-size="15" font-weight="700">Windows 本机工具</text>
+
+    <text x="74" y="190" fill="white" font-size="48" font-weight="800">抖音喜欢 / 收藏视频转文字</text>
+    <text x="74" y="237" fill="#D9E6FF" font-size="22" font-weight="400">先挑选，再临时下载并本机转写；输出可继续交给 AI 整理的 TXT。</text>
+
+    <g>
+      <rect x="74" y="286" width="148" height="52" rx="14" fill="#FFFFFF"/>
+      <text x="97" y="319" fill="#16407D" font-size="17" font-weight="800">喜欢 · 收藏</text>
+      <rect x="234" y="286" width="155" height="52" rx="14" fill="#FFFFFF" fill-opacity="0.14" stroke="#FFFFFF" stroke-opacity="0.28"/>
+      <text x="257" y="319" fill="white" font-size="17" font-weight="800">勾选式处理</text>
+      <rect x="401" y="286" width="158" height="52" rx="14" fill="#FFFFFF" fill-opacity="0.14" stroke="#FFFFFF" stroke-opacity="0.28"/>
+      <text x="424" y="319" fill="white" font-size="17" font-weight="800">本地临时转写</text>
+    </g>
+
+    <text x="74" y="409" fill="#C8D8F5" font-size="16">不上传 Cookie · 不要求 OpenAI API Key · 原始媒体成功后自动清理</text>
+
+    <g filter="url(#shadow)">
+      <rect x="760" y="72" width="435" height="373" rx="23" fill="url(#card)" stroke="#FFFFFF" stroke-opacity="0.24"/>
+      <rect x="784" y="97" width="387" height="42" rx="11" fill="#FFFFFF" fill-opacity="0.15"/>
+      <circle cx="812" cy="118" r="7" fill="#FF7777"/>
+      <circle cx="836" cy="118" r="7" fill="#FBC965"/>
+      <circle cx="860" cy="118" r="7" fill="#64E6A7"/>
+      <text x="887" y="124" fill="#EAF1FF" font-size="16" font-weight="700">抖音视频转文字工具</text>
+
+      <rect x="784" y="159" width="184" height="77" rx="14" fill="#FFFFFF"/>
+      <text x="804" y="189" fill="#1B3F78" font-size="14" font-weight="700">① 读取视频清单</text>
+      <text x="804" y="214" fill="#64748B" font-size="13">喜欢 · 收藏 · 单链接</text>
+      <rect x="982" y="159" width="189" height="77" rx="14" fill="#9FC8FF" fill-opacity="0.22" stroke="#C9E2FF" stroke-opacity="0.4"/>
+      <text x="1002" y="189" fill="#EEF6FF" font-size="14" font-weight="700">② 勾选感兴趣的视频</text>
+      <text x="1002" y="214" fill="#D5E8FF" font-size="13">不会马上批量下载</text>
+
+      <rect x="784" y="250" width="387" height="44" rx="11" fill="#FFFFFF" fill-opacity="0.13"/>
+      <rect x="801" y="264" width="16" height="16" rx="4" fill="#63E6B4"/>
+      <path d="M805 272L809 276L815 268" stroke="#123B34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="835" y="278" fill="#F3F8FF" font-size="14">AI 少年创业：学历在 AI 时代还有多重要？</text>
+      <rect x="784" y="306" width="387" height="44" rx="11" fill="#FFFFFF" fill-opacity="0.10"/>
+      <rect x="801" y="320" width="16" height="16" rx="4" stroke="#D8E6FD" stroke-width="2"/>
+      <text x="835" y="334" fill="#E3ECFA" font-size="14">旅行攻略：三天两夜的城市漫游路线</text>
+
+      <rect x="784" y="372" width="387" height="49" rx="13" fill="#FFFFFF"/>
+      <text x="806" y="403" fill="#18417D" font-size="16" font-weight="800">转为文字（已选 1 条）</text>
+      <text x="1032" y="403" fill="#63758D" font-size="14">本机处理中…</text>
+    </g>
+  </g>
+</svg>
